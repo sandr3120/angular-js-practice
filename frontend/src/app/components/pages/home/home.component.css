@@ -1,0 +1,51 @@
+ngb-rating {
+    color: #FFC107;
+    font-size: 25px;
+}
+
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+li a{
+    height: 22rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: darkolivegreen;
+}
+
+li a img{
+    object-fit: cover;
+    height:14.5rem;
+}
+li a:hover{
+    opacity:0.9;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 0.3rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    height: 7rem;
+}
+
+.stars{
+    margin-bottom: 0.2rem;
+}
+
+.product-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
