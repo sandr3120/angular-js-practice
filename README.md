@@ -9,7 +9,7 @@ A practice project to build a simple food cart application using Angular. It dem
 - Angular routing for navigation.
 
 ## Setup
-1. **Clone the repo:** `git clone https://github.com/yourusername/food-cart-angular.git`
+1. **Clone the repo:** `git clone https://github.com/sandr3120/angular-js-practice.git`
 2. **Install dependencies:** `npm install`
 3. **Run the app:** `ng serve`
 4. **Open in browser:** Visit `http://localhost:4200`
